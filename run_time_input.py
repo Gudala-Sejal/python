@@ -66,12 +66,12 @@ print(a+b)
 print(a-b)
 print(a*b)'''
 
-'''a=int(input("enter a value"))
+a=int(input("enter a value"))
 b=int(input("enter b value"))
 option=int(input("choose the option 1.add 2.sub 3.mul"))
 print(a+b)
 print(a-b)
-print(a*b)'''
+print(a*b)
 
 '''a=int(input("enter a value"))
 b=int(input("enter b value"))
