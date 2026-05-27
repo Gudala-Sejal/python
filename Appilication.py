@@ -78,4 +78,30 @@ print("Total Absentiess",a)'''
  * * *
 * * * *'''
 
+#1.right angle
+'''rows=5                   
+for i in range(1,rows+1):
+    print("*" * i)'''
+    
 
+#2.reverse right angle
+'''rows=5                     '''n=int(input("enter no of rows"))
+for i in range(rows,0,-1):       for i in range(n):
+    print("*" * i)'''              print("*"*(n-i))'''
+
+'''#3.square
+rows=4
+cols=4           #we can take as run tym input asn=int(input()) 
+for i in range(rows):
+    for j in range(cols):
+        print("*",end=" ")
+    print()'''
+
+#pyramid
+'''rows=1
+for i in range(1,rows+1):
+    for j in range(rows-i):
+        print(" ",end=" ")
+    for k in range(i):
+        print("*",end=" ")
+    print()'''
