@@ -62,5 +62,57 @@ fullname()'''
             print(a-b)
         if options==3:
             print(a*b)
-    calculate()'''      
+    calculate()'''
 
+
+#task
+#using multiple def
+'''def add():
+    print(a+b)
+def sub():
+    print(a-b)
+def pro():
+    print(a*b)
+while True:
+    a=int(input("Enter a value"))
+    b=int(input("Enter b value"))
+    option=int(input("Choose the option
+                     1.add
+                     2.sub
+                     3.pro"))
+    if option==1:
+        add()
+    elif option==2:
+        sub()
+    elif option==3:
+        pro()'''
+
+
+#print vs return
+'''def add(a,b):
+    print(a+b)
+add(2,4)'''
+
+'''def add(a,b):
+    return a+b
+print(add(2,4))'''
+
+
+'''def cal(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    print(c)
+    print(d)
+    print(e)
+cal(4,6)'''
+
+'''def cal(a,b):
+    c=a+b
+    d=a-b
+    e=a*b
+    #return c
+    #return d
+    #return e
+    return c,d,e
+print(cal(4,2))'''
